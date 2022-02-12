@@ -1,3 +1,5 @@
+NOTAS TOMADAS DE
+<https://github.com/rb-one/curso-webscrapping-con-xpath->
 # Curso de Fundamentos de Web Scraping con Python y Xpath
 
 - [Curso de Fundamentos de Web Scraping con Python y Xpath](#curso-de-fundamentos-de-web-scraping-con-python-y-xpath)
