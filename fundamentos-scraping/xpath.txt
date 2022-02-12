@@ -1,0 +1,11 @@
+# $x('//h2/a/@href').map(x=>x.value)
+Links = //h2[@class="headline"]/a/@href
+
+# $x('//h2/a/text()').map(x=>x.wholeText)
+Titulo = //h1[@class=headline"]/a/text()
+
+# $x('//div[@class="lead"]/p/text()').map(x=>x.wholeText)
+Resumen = //div[@class=lead"]/p/text()
+
+# $x('//div[@class="html-content"]/p[not(@class)]/text()').map(x=>x.wholeText)
+Cuerpo = //div[@class="html-content"]/p[not(@class)]/text()

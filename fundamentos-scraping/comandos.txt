@@ -1,0 +1,9 @@
+comandos usados
+
+py -m venv mis_dependencias #encapsula las dependencias
+
+mis_dependencias\Scripts\deactivate #activa mi ambiente virtual
+
+pip install requests lxml autopep8 #instala requests, lxml, autopep8 en mi ambiente
+
+py -m pip install pip --upgrade #actualiza pip
