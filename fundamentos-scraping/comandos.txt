@@ -1,9 +1,15 @@
 comandos usados
 
-py -m venv mis_dependencias #encapsula las dependencias
+py -m pip freeze ### muestra las dependencias que hay en el ambiente
 
-mis_dependencias\Scripts\deactivate #activa mi ambiente virtual
+py -m venv mis_dependencias ### encapsula las dependencias
 
-pip install requests lxml autopep8 #instala requests, lxml, autopep8 en mi ambiente
+mis_dependencias\Scripts\deactivate ### activa mi ambiente virtual
 
-py -m pip install pip --upgrade #actualiza pip
+pip install requests lxml autopep8 ### instala requests, lxml, autopep8 en mi ambiente
+
+py -m pip install pip --upgrade ### actualiza pip
+
+py -m pip freeze > requirements.txt ### crea un archivo con las librerias instaladas
+
+py -m pip install -r requirements.txt ### instala las librerias del archivo de texto
