@@ -1,0 +1,27 @@
+comandos usados
+
+py -m pip freeze ### muestra las dependencias que hay en el ambiente
+
+py -m venv mis_dependencias ### encapsula las dependencias
+
+mis_dependencias\Scripts\activate ### activa mi ambiente virtual
+
+deactivate ### desactiva mi ambiente virtual
+
+pip install requests lxml autopep8 ### instala requests, lxml, autopep8 en mi ambiente
+
+py -m pip install pip --upgrade ### actualiza pip
+
+py -m pip freeze > requirements.txt ### crea un archivo con las librerias instaladas
+
+py -m pip install -r requirements.txt ### instala las librerias del archivo de texto
+
+alias entorno=venv/Scripts/activate ### crea un alias para la ruta
+
+scrapy startproject namee ### crea un 
+
+scrapy crawl quotes ### ejecuta el script de scrapy que hicimos que descarga el html de la pagina y quotes es lo que definimos en name
+
+mkdir nombre ### crea una carpeta
+rmdir /s nombre ### remueve una carpeta
+touch nombre.txt ## crea archivos
